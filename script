@@ -1,0 +1,6 @@
+#!/bin/sh
+
+clear
+./consumer  output.wav &
+./producer  input.wav &
+echo "I'm done !"
